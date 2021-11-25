@@ -12,6 +12,26 @@
     background-color: #EDEDED;
 }
 
+/* --------------------------------------------------- Special Paddings/Margins/Texts */
+
+h1, 
+h2, 
+h3, 
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #F7F7F7;
+}
+
+
 /* --------------------------------------------------- Header */
 
 header {
@@ -97,4 +117,13 @@ header {
 
 .hvr-sweep-to-bottom:before {
     background-color: #C5CDDB;
+}
+
+/* --------------------------------------------------- Footer */
+
+footer {
+    background-color: #000D20;
+    color: #F7F7F7;
+    min-height: 120px;
+    margin: 0;
 }
