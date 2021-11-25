@@ -4,3 +4,11 @@ header {
     margin: 0;
 }
 
+.logo {
+    background: url("../images/emidio.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
