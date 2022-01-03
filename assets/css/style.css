@@ -144,6 +144,17 @@ header {
     background-color: #C5CDDB;
 }
 
+/* --------------------------------------------------- Three Reasons */
+
+.three-reasons-icon {
+    font-size: 1.625rem;
+    color: #314A72;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
 /* --------------------------------------------------- Footer */
 
 footer {
