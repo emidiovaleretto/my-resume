@@ -66,7 +66,7 @@ header {
 .logo {
     background: url("../images/emidio.jpg") no-repeat center;
     background-size: cover;
-    min-height: 360px;
+    height: 366px;
 }
 
 .heading {
@@ -100,10 +100,6 @@ header {
 
 #nav li {
     font-size: 18px;
-}
-
-.col-menu {
-    height: 120px;
 }
 
 .menu-item {
