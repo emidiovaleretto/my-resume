@@ -9,6 +9,11 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+    margin-top: -16px;
+}
+
 .color-menu-home,
 .color-menu-resume,
 .color-menu-contact,
