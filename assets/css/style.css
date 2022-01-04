@@ -58,6 +58,7 @@ h4 {
     float: none;
 }
 
+.history-heading,
 .section-heading {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -214,11 +215,60 @@ header {
 }
 
 .bg-purple {
-    background-color: purple;
+    margin-top: -16px;
+    background-color: #9b59b6;
 }
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/* --------------------------------------------------- Work history */
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4rem 2rem 0rem 1.5rem;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 50px;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2em;
+    top: 3em;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 0.7em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 2.4em;
+    left: -6px;
+    display: block;
+    border-radius: 50%;
+    background-color: #fafafa;
 }
 
 
